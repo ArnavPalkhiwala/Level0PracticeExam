@@ -15,5 +15,17 @@ import javax.swing.JOptionPane;
  **/
 
 public class CodingExercise0 {
+	public static void main(String[] args) {
+String name = JOptionPane.showInputDialog("What is your name?");
+String number = JOptionPane.showInputDialog("What the is the number?");
+int x = Integer.parseInt(number);  
+		for (int i = 0; i < x; i++) {
+			
+		
+			System.out.println(name);	
+		}
+		
+
 
 }
+	}
